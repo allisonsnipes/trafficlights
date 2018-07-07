@@ -5,11 +5,11 @@ function doTrafficLights() {
       return turnRed();
     }
   
-    else if (activeLight === 'yellow') {
+    if (activeLight === 'yellow') {
       return turnYellow();
     }
 
-    else (activeLight === 'green') {
+    if (activeLight === 'green') {
       return turnGreen();
     }
 
