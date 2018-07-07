@@ -1,13 +1,23 @@
 function doTrafficLights() {
   const activeLight = getActiveLight();
-  // your code will replace this call
-  // to `console.log()`
-  console.log(activeLight);
+    if () {
+      console.log();
+    }
+  
+    else if () {
+      console.log();
+    }
 
+    else {
+      console.log(`Please click the button to start`);
+      function();
+    }
+
+  console.log(activeLight);
 }
 
-// this function randomly returns red, yellow, or green
-// and is called by doTrafficLights.
+// this function randomly returns red, yellow, or green 
+//and is called by doTrafficLights.
 // don't modify it!
 function getActiveLight() {
   return (['red', 'green', 'yellow'])[Math.floor(Math.random() * 3)];
@@ -39,7 +49,6 @@ function turnRed() {
   turnOffLights();
   $('.red-light').addClass('red-on');
 }
-
 
 function handleClicks() {
   $('.js-control-lights').click(function() {
