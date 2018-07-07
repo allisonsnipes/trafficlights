@@ -1,23 +1,23 @@
 function doTrafficLights() {
+  
   const activeLight = getActiveLight();
-    if (activeLight === red-light) {
-      return red-light;
+    if (activeLight === 'red') {
+      return turnRed();
     }
   
-    else if (activeLight === yellow-light) {
-      return yellow-light
+    else if (activeLight === 'yellow') {
+      return turnYellow();
     }
 
-    else (activeLight === green-light) {
-      return green-light;
+    else (activeLight === 'green') {
+      return turnGreen();
     }
 
   console.log(activeLight);
 }
 
 // this function randomly returns red, yellow, or green 
-//and is called by doTrafficLights.
-// don't modify it!
+//and is called by doTrafficLights. don't modify it!
 function getActiveLight() {
   return (['red', 'green', 'yellow'])[Math.floor(Math.random() * 3)];
 }
