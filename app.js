@@ -1,16 +1,15 @@
 function doTrafficLights() {
   const activeLight = getActiveLight();
-    if () {
-      console.log();
+    if (activeLight === red-light) {
+      return red-light;
     }
   
-    else if () {
-      console.log();
+    else if (activeLight === yellow-light) {
+      return yellow-light
     }
 
-    else {
-      console.log(`Please click the button to start`);
-      function();
+    else (activeLight === green-light) {
+      return green-light;
     }
 
   console.log(activeLight);
@@ -24,12 +23,7 @@ function getActiveLight() {
 }
 
 /* From here down, you are not expected to 
-   understand.... for now :)  
-   
-   
-   Nothing to see here!
-   
-*/
+understand.... for now :)  Nothing to see here! */
 
 function turnOffLights() {
   $('.traffic-light').removeClass('yellow-on red-on green-on');
